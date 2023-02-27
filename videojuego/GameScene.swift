@@ -20,7 +20,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.camera = cam
         
     }
-    
+    //
     override func update(_ currentTime: TimeInterval) {
         cam.position = cube.position
         var curDy = cube.physicsBody?.velocity.dy
